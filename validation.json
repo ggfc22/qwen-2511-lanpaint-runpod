@@ -1,0 +1,28 @@
+{
+  "python_syntax": "passed",
+  "workflow_nodes": 14,
+  "workflow_patch_points": "passed",
+  "output_node": "127",
+  "mask_node": "130",
+  "model_urls": {
+    "qwen-image-edit-2511-Q5_K_M.gguf": {
+      "http_status": 200,
+      "bytes": 15027501664
+    },
+    "Qwen2.5-VL-7B-Instruct-UD-Q4_K_XL.gguf": {
+      "http_status": 200,
+      "bytes": 4785159040
+    },
+    "Qwen2.5-VL-7B-Instruct-mmproj-BF16.gguf": {
+      "http_status": 200,
+      "bytes": 1354163040
+    },
+    "qwen_image_vae.safetensors": {
+      "http_status": 200,
+      "bytes": 253806246
+    }
+  },
+  "docker_build": "not run",
+  "gpu_inference": "not run",
+  "runpod_endpoint": "not created"
+}
